@@ -1,0 +1,48 @@
+---
+title: Physics (334f8b61-30eb-4475-8e05-5260a4866b4b)
+books:
+- archive_url: https://archive-staging-tutor.cnx.org
+  cnx_id: 334f8b61-30eb-4475-8e05-5260a4866b4b
+  reading_processing_instructions:
+  - css: .ost-reading-discard, .os-teacher, [data-type="glossary"]
+    except: snap-lab
+    fragments: []
+  - css: |-
+      .ost-feature:has-descendants(".os-exercise",2),
+                          .ost-feature:has-descendants(".ost-exercise-choice"),
+                          .ost-assessed-feature:has-descendants(".os-exercise",2),
+                          .ost-assessed-feature:has-descendants(".ost-exercise-choice")
+    fragments:
+    - node
+    - optional_exercise
+  - css: |-
+      .ost-feature:has-descendants(".os-exercise, .ost-exercise-choice"),
+                          .ost-assessed-feature:has-descendants(".os-exercise, .ost-exercise-choice")
+    fragments:
+    - node
+    - exercise
+  - css: |-
+      .ost-feature .ost-exercise-choice, .ost-assessed-feature .ost-exercise-choice,
+                          .ost-feature .os-exercise, .ost-assessed-feature .os-exercise
+    fragments: []
+  - css: ".ost-exercise-choice"
+    fragments:
+    - exercise
+    - optional_exercise
+  - css: ".os-exercise"
+    fragments:
+    - exercise
+  - css: ".ost-video"
+    fragments:
+    - video
+  - css: ".os-interactive, .ost-interactive"
+    fragments:
+    - interactive
+  - css: ".worked-example"
+    labels:
+    - worked-example
+    fragments:
+    - reading
+  - css: ".ost-feature, .ost-assessed-feature"
+    fragments:
+    - reading

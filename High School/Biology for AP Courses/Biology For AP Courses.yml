@@ -1,0 +1,48 @@
+---
+title: Biology For AP® Courses (d52e93f4-8653-4273-86da-3850001c0786)
+books:
+- archive_url: https://archive-staging-tutor.cnx.org
+  cnx_id: d52e93f4-8653-4273-86da-3850001c0786
+  reading_processing_instructions:
+  - css: .ost-reading-discard, .os-teacher, [data-type="glossary"]
+    except: snap-lab
+    fragments: []
+  - css: |-
+      .ost-feature:has-descendants(".os-exercise",2),
+                          .ost-feature:has-descendants(".ost-exercise-choice"),
+                          .ost-assessed-feature:has-descendants(".os-exercise",2),
+                          .ost-assessed-feature:has-descendants(".ost-exercise-choice")
+    fragments:
+    - node
+    - optional_exercise
+  - css: |-
+      .ost-feature:has-descendants(".os-exercise, .ost-exercise-choice"),
+                          .ost-assessed-feature:has-descendants(".os-exercise, .ost-exercise-choice")
+    fragments:
+    - node
+    - exercise
+  - css: |-
+      .ost-feature .ost-exercise-choice, .ost-assessed-feature .ost-exercise-choice,
+                          .ost-feature .os-exercise, .ost-assessed-feature .os-exercise
+    fragments: []
+  - css: ".ost-exercise-choice"
+    fragments:
+    - exercise
+    - optional_exercise
+  - css: ".os-exercise"
+    fragments:
+    - exercise
+  - css: ".ost-video"
+    fragments:
+    - video
+  - css: ".os-interactive, .ost-interactive"
+    fragments:
+    - interactive
+  - css: ".worked-example"
+    labels:
+    - worked-example
+    fragments:
+    - reading
+  - css: ".ost-feature, .ost-assessed-feature"
+    fragments:
+    - reading
