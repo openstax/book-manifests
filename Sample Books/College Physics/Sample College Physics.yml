@@ -1,0 +1,20 @@
+---
+title: 'CW Sample: College Physics (b93e4f22-bab5-4733-8b10-a7ec9052f78a@4.2)'
+books:
+- archive_url: https://archive.cnx.org
+  cnx_id: b93e4f22-bab5-4733-8b10-a7ec9052f78a
+  reading_processing_instructions:
+  - css: .conceptual-questions, .problems-exercises, .check-understanding, [data-type="glossary"]
+    fragments: []
+  - css: .phet-explorations-embedded
+    fragments:
+    - interactive
+    - exercise
+  - css: .video-explorations
+    fragments:
+    - video
+    - exercise
+  - css: .example
+    fragments:
+    - node
+    - optional_exercise

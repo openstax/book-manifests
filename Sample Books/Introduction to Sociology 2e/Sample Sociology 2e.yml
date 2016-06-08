@@ -1,0 +1,8 @@
+---
+title: 'CW Sample: Sociology 2e (984169ea-2e5f-440f-af98-5c7e849b7208@1.1)'
+books:
+- archive_url: https://archive.cnx.org
+  cnx_id: 984169ea-2e5f-440f-af98-5c7e849b7208
+  reading_processing_instructions:
+  - css: .section-quiz, .short-answer, .further-research, [data-type="glossary"]
+    fragments: []

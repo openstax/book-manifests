@@ -1,0 +1,13 @@
+---
+title: 'CW Sample: Biology (26ad6bd2-8e56-4986-b14f-bc95a4378d22@2.1)'
+books:
+- archive_url: https://archive.cnx.org
+  cnx_id: 26ad6bd2-8e56-4986-b14f-bc95a4378d22
+  reading_processing_instructions:
+  - css: .multiple-choice, .free-response, .art-exercise, .interactive-embedded-homework,
+      .experiment, [data-type="glossary"]
+    fragments: []
+  - css: .interactive-embedded-reading
+    fragments:
+    - interactive
+    - exercise
