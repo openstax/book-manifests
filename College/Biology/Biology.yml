@@ -9,5 +9,5 @@ books:
     fragments: []
   - css: .interactive-embedded-reading
     fragments:
-    - interactive
+    - node
     - exercise
