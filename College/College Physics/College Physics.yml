@@ -14,7 +14,3 @@ books:
     fragments:
     - video
     - exercise
-  - css: .example
-    fragments:
-    - node
-    - optional_exercise
