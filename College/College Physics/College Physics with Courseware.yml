@@ -10,7 +10,7 @@ books:
     fragments:
     - interactive
     - exercise
-  - css: .video-explorations
+  - css: .watch-physics
     fragments:
     - video
     - exercise
