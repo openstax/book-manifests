@@ -5,7 +5,7 @@ books:
   cnx_id: 185cbf87-c72e-48f5-b51e-f14f21b5eabd
   reading_processing_instructions:
   - css: .multiple-choice, .free-response, .art-exercise, .interactive-embedded-homework,
-      .experiment, [data-type="glossary"]
+      .scientific, .experiment, [data-type="glossary"]
     fragments: []
   - css: .interactive-embedded-reading
     fragments:
