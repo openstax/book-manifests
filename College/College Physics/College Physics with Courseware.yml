@@ -14,3 +14,6 @@ books:
     fragments:
     - video
     - exercise
+  - css: [data-type="example"], .example-video
+    fragments:
+    - reading
