@@ -5,6 +5,16 @@ to be used for new instances of Tutor, or to add a new book to an existing insta
 
 # Documentation
 
+## Removing elements from the interactive readings
+In order to remove a section from the readings in a book, add the class name of the element to remove to the css rule in the <book>.yml file that ends in 'fragments: []'
+
+Example:
+```
+ - css: .multiple-choice, .free-response, .art-exercise, .interactive-embedded-homework,
+      .scientific, .experiment, [data-type="glossary"]
+    fragments: []
+```
+
 ## Splitting content
 
 Most of these options (except for `[]` and `node`) will generate a new step in a reading assignment. The process for creating a new step is that when the element is found, all the open HTML elements are immediately closed (for the previous step) and then all the HTML elements are reopened (for the next step).
