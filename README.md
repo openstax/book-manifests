@@ -38,7 +38,8 @@ This defines what will happen when an element is matched. It contains an array o
   - if the target is a link, then parse the URL to find an exid and search for the exid in exercises
   - OR, the exercise is chosen by querying exercises for a cnxmod tag that matches the page UUID as well as the HTML fragment id that the selector matches (usually a `<cnx:note>` element)
 - `optional_exercise`: Adds an optional "Try Another" exercise. The way the exercise is looked up is the same as for `exercise`. This should probably always come after an `exercise`
-- `interactive`: The CSS should target an `<iframe>`. This replaces the `<iframe>` with a new step that contains the iframe and has a little interactive icon
-- `video`: The CSS should target an `<iframe>`. This replaces the `<iframe>` with a new step that contains the iframe and has a little video icon
+- `interactive`: The CSS should target an element which contains an `<iframe>` (ie a note) or an element which contains a link to a PhET sim. This replaces the selected element with a new step that contains the `<iframe>` and has a little interactive icon
+- `video`: The CSS should target an element which contains an `<iframe>` (ie a note). This replaces the element with a new step that contains the `<iframe>` and has a little video icon
 - `node`: The option with the most corner-cases. This describes whether the selected element should go with the HTML that came before the element or the HTML after. It must be either the 1st element in the array or the last.
-  - **Example**: `[node, exercise]` will create a new exercise step but keep the selected element with the step just before the exercise
+  - **Example:** `[node, exercise]` will create a new exercise step but keep the selected element with the step just before the exercise
+  - **Note:** `[node, exercise]` is probably the only correct use of `node`
