@@ -30,10 +30,10 @@ This contains a comma-separated set of selectors that match an HTML element. The
 
 ### Fragments
 
-This defines what will happen when an elmeent is matched. It contains an array of enumerated values. The possible values are described below. Most of them result in splitting the HTML content and injecting an additional step (an `exercise`, `interactive`, or `video`). `[]` and `node` do not add an additional step and instead describe where the selected element should go. See `node` for more details.
+This defines what will happen when an element is matched. It contains an array of enumerated values. The possible values are described below. Most of them result in splitting the HTML content and injecting an additional step (an `exercise`, `interactive`, or `video`). `[]` and `node` do not add an additional step and instead describe where the selected element should go. See `node` for more details.
 
 - `[]`: Remove this element but do not create a new step
-- `reading`: Create a new step which contains this element
+- `reading step`: Create a new step which contains this element
 - `exercise`: Create a new step which contains an exercise. There are 2 ways the exercise is chosen
   - if the target is a link, then parse the URL to find an exid and search for the exid in exercises
   - OR, the exercise is chosen by querying exercises for a cnxmod tag that matches the page UUID as well as the HTML fragment id that the selector matches (usually a `<cnx:note>` element)
