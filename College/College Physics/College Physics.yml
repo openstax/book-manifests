@@ -4,7 +4,9 @@ books:
 - archive_url: https://archive.cnx.org
   cnx_id: 031da8d3-b525-429c-80cf-6c8ed997733a
   reading_processing_instructions:
-  - css: .conceptual-questions, .problems-exercises, .check-understanding, [data-type="glossary"]
+  - css: .conceptual-questions, .problems-exercises, [data-element-type="conceptual-questions"],
+      [data-element-type="problems-exercises"], [data-element-type="check-understanding"],
+      [data-type="glossary"]
     fragments: []
   - css: .phet-explorations-embedded
     fragments:
