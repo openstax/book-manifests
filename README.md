@@ -43,7 +43,7 @@ This contains a comma-separated set of selectors that match an HTML element. The
 This defines what will happen when an element is matched. It contains an array of enumerated values. The possible values are described below. Most of them result in splitting the HTML content and injecting an additional step (an `exercise`, `interactive`, or `video`). `[]` and `node` do not add an additional step and instead describe where the selected element should go. See `node` for more details.
 
 - `[]`: Remove this element but do not create a new step
-- `reading step`: Create a new step which contains this element
+- `reading`: Create a new step which contains this element
 - `exercise`: Create a new step which contains an exercise. There are 2 ways the exercise is chosen
   - if the target is a link, then parse the URL to find an exid and search for the exid in exercises
   - OR, the exercise is chosen by querying exercises for a cnxmod tag that matches the page UUID as well as the HTML fragment id that the selector matches (usually a `<cnx:note>` element)
@@ -53,3 +53,6 @@ This defines what will happen when an element is matched. It contains an array o
 - `node`: The option with the most corner-cases. This describes whether the selected element should go with the HTML that came before the element or the HTML after. It must be either the 1st element in the array or the last.
   - **Example:** `[node, exercise]` will create a new exercise step but keep the selected element with the step just before the exercise
   - **Note:** `[node, exercise]` is probably the only correct use of `node`
+
+TODO: Replace node fragment with an option (keep_node: :before_split or keep_node: :after_split)
+      That way, fragments: [] combined with keep_node could be used to split content without creating any fragments.
