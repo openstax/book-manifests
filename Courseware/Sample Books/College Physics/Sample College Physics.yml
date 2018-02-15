@@ -10,11 +10,17 @@ books:
     fragments:
     - interactive
     - exercise
+    labels:
+    - phet-explorations
   - css: .video-explorations
     fragments:
     - video
     - exercise
+    labels:
+    - video-explorations
   - css: .example
     fragments:
     - node
     - optional_exercise
+    labels:
+    - example

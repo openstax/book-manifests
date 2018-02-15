@@ -11,3 +11,5 @@ books:
     fragments:
     - node
     - exercise
+    labels:
+    - interactive-reading

@@ -39,10 +39,12 @@ books:
     fragments:
     - interactive
   - css: ".worked-example"
-    labels:
-    - worked-example
     fragments:
     - reading
+    labels:
+    - worked-example
   - css: ".ost-feature, .ost-assessed-feature"
     fragments:
     - reading
+    labels:
+    - feature

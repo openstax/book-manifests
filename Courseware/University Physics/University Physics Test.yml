@@ -12,10 +12,16 @@ books:
     fragments:
     - interactive
     - exercise
+    labels:
+    - phet-explorations
   - css: .watch-physics
     fragments:
     - video
     - exercise
+    labels:
+    - watch-physics
   - css: .example-video, [data-type="example"]
     fragments:
     - reading
+    labels:
+    - example
