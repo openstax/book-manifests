@@ -8,6 +8,10 @@ books:
     fragments:
     - video
     - exercise
+    labels:
+    - watch-history
   - css: .note
     fragments:
     - reading
+    labels:
+    - note
