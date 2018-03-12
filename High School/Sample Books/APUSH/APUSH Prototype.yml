@@ -3,4 +3,18 @@ title: 'APUSH Prototype (be176edf-9df5-4a21-9591-84581b232956)'
 books:
 - archive_url: https://archive-devb.cnx.org
   cnx_id: be176edf-9df5-4a21-9591-84581b232956
-  reading_processing_instructions: []
+  reading_processing_instructions:
+  - css: .review-questions, .free-response, .ap-practice, .contextualization-questions,
+      .historical-reasoning, .teacher-note
+    fragments: []
+  - css: .primary-sources
+    fragments:
+    - reading
+    labels:
+    - primary-sources
+  - css: .note
+    fragments:
+    - reading
+    - exercise
+    labels:
+    - note
