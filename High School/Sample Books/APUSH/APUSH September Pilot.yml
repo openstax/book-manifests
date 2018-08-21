@@ -1,0 +1,20 @@
+---
+title: 'APUSH September Pilot (fbc61a81-d911-4fe5-bcc7-f1746dbbea18)'
+books:
+- archive_url: https://archive-content05.cnx.org
+  cnx_id: fbc61a81-d911-4fe5-bcc7-f1746dbbea18
+  reading_processing_instructions:
+  - css: .review-questions, .free-response, .ap-practice, .contextualization-questions,
+      .historical-reasoning, .teacher-note
+    fragments: []
+  - css: .primary-sources
+    fragments:
+    - reading
+    labels:
+    - primary-sources
+  - css: .note
+    fragments:
+    - reading
+    - exercise
+    labels:
+    - note
