@@ -53,6 +53,3 @@ This defines what will happen when an element is matched. It contains an array o
 - `node`: The option with the most corner-cases. This describes whether the selected element should go with the HTML that came before the element or the HTML after. It must be either the 1st element in the array or the last.
   - **Example:** `[node, exercise]` will create a new exercise step but keep the selected element with the step just before the exercise
   - **Note:** `[node, exercise]` is probably the only correct use of `node`
-
-TODO: Replace node fragment with an option (keep_node: :before_split or keep_node: :after_split)
-      That way, fragments: [] combined with keep_node could be used to split content without creating any fragments.
