@@ -1,11 +1,11 @@
 ---
-title: 'APUSH September Pilot (fbc61a81-d911-4fe5-bcc7-f1746dbbea18)'
+title: BRI_APUSH (0a621f27-abe1-4c17-8f1c-d80d07958977)
 books:
 - archive_url: https://archive-content05.cnx.org
-  cnx_id: fbc61a81-d911-4fe5-bcc7-f1746dbbea18
+  cnx_id: 0a621f27-abe1-4c17-8f1c-d80d07958977
   reading_processing_instructions:
   - css: .review-questions, .free-response, .ap-practice, .contextualization-questions,
-      .historical-reasoning, .teacher-note
+      .historical-reasoning, .os-teacher
     fragments: []
   - css: .primary-sources
     fragments:
