@@ -7,6 +7,9 @@ books:
   - css: .ost-reading-discard, .os-teacher, [data-type="glossary"]
     except: snap-lab
     fragments: []
+  - css: '[data-type="footnote-refs"]'
+    fragments:
+    - media
   - css: |-
       .ost-feature:has-descendants(".os-exercise",2),
                           .ost-feature:has-descendants(".ost-exercise-choice"),

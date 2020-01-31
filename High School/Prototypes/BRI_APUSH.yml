@@ -7,6 +7,9 @@ books:
   - css: .review-questions, .free-response, .ap-practice, .contextualization-questions,
       .historical-reasoning, .os-teacher
     fragments: []
+  - css: '[data-type="footnote-refs"]'
+    fragments:
+    - media
   - css: .primary-sources
     fragments:
     - reading
