@@ -8,7 +8,7 @@ books:
       [data-element-type="problems-exercises"], [data-element-type="check-understanding"],
       [data-type="glossary"]
     fragments: []
-  - css: [data-type="footnote-refs"]
+  - css: '[data-type="footnote-refs"]'
     fragments:
     - media
   - css: .phet-explorations-embedded
