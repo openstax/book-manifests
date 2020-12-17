@@ -4,15 +4,16 @@ books:
 - archive_url: https://archive.cnx.org
   cnx_id: 8d50a0af-948b-4204-a71d-4826cba765b8
   reading_processing_instructions:
-  - css: .multiple-choice, .free-response, .art-exercise, .interactive-long,
-      .scientific, [data-type="glossary"]
+  - css: >-
+      .multiple-choice, .free-response, .art-exercise,
+      .interactive-long, .scientific, [data-type="glossary"]
     fragments: []
   - css: '[data-type="footnote-refs"]'
     fragments:
-    - media
+      - media
   - css: .interactive
     fragments:
-    - node
-    - exercise
+      - node
+      - exercise
     labels:
-    - interactive
+      - interactive

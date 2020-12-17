@@ -8,11 +8,11 @@ books:
     fragments: []
   - css: .note
     fragments:
-    - reading
+      - reading
     labels:
-    - note
+      - note
   - css: .anatomy.interactive
     fragments:
-    - interactive
+      - interactive
     labels:
-    - interactive link
+      - interactive link

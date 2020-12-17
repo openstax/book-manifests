@@ -1,16 +1,13 @@
 ---
-title: Life, Liberty, and the Pursuit of Happiness (36004586-651c-4ded-af87-203aca22d946)
+title: College Physics for AP® Courses (8d04a686-d5e8-4798-a27d-c608e4d0e187)
 books:
 - archive_url: https://archive.cnx.org
-  cnx_id: 36004586-651c-4ded-af87-203aca22d946
+  cnx_id: 8d04a686-d5e8-4798-a27d-c608e4d0e187
   reading_processing_instructions:
   - css: >-
       .review-questions, .free-response, .ap-practice,
-      .contextualization-questions, .historical-reasoning, .os-teacher
+      .contextualization-questions, .historical-reasoning, .teacher-note
     fragments: []
-  - css: '[data-type="footnote-refs"]'
-    fragments:
-      - media
   - css: .primary-sources
     fragments:
       - reading
