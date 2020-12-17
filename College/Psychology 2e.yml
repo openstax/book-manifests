@@ -1,0 +1,14 @@
+---
+title: Psychology 2e (06aba565-9432-40f6-97ee-b8a361f118a8)
+books:
+- archive_url: https://archive.cnx.org
+  cnx_id: 06aba565-9432-40f6-97ee-b8a361f118a8
+  reading_processing_instructions:
+  - css: .summary, .review-questions, .critical-thinking, .personal-application,
+      .references
+    fragments: []
+  - css: .note
+    fragments:
+    - reading
+    labels:
+    - note

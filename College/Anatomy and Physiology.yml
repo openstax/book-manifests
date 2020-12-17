@@ -1,0 +1,18 @@
+---
+title: Anatomy and Physiology (14fb4ad7-39a1-4eee-ab6e-3ef2482e3e22)
+books:
+- archive_url: https://archive.cnx.org
+  cnx_id: 14fb4ad7-39a1-4eee-ab6e-3ef2482e3e22
+  reading_processing_instructions:
+  - css: .summary, .interactive-exercise, .multiple-choice, .free-response, .references
+    fragments: []
+  - css: .note
+    fragments:
+    - reading
+    labels:
+    - note
+  - css: .anatomy.interactive
+    fragments:
+    - interactive
+    labels:
+    - interactive link
